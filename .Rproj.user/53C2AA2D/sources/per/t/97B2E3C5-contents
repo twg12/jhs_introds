@@ -1,0 +1,15 @@
+---
+title: "Hello R Markdown"
+author: "Jihyun Son"
+date: "20 de abril de 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+if (!requireNamespace("devtools")) install.packages("devtools")
+devtools::install_github("rstudio/blogdown")
+
+blogdown::install_hugo(force = TRUE)

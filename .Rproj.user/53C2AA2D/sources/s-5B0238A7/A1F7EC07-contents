@@ -1,0 +1,2 @@
+if (!requireNamepsace("devtools")) install.packages("devtools")
+devtools::install_github()
